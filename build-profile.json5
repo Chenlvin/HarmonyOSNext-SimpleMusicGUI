@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "ohos",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Zhou Chenlvin\\.ohos\\config\\ohos_MusicTest_Q2SmJZwJWdjrcSAN5QNr4iId4HCxLxP7sV1aTGpkUtg=.cer",
+          "storePassword": "0000001B5028167694224A669D44DA8AFB30D668BC9205CE93F4B7DF780AB63CCBD172E8784F3611AD5941",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BFF9139B4F69C1066A2817D91917F5ECFCFFB9D25260C4F994BDDCE3A8896B3715F0E41C5C13C7A",
+          "profile": "C:\\Users\\Zhou Chenlvin\\.ohos\\config\\ohos_MusicTest_Q2SmJZwJWdjrcSAN5QNr4iId4HCxLxP7sV1aTGpkUtg=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Zhou Chenlvin\\.ohos\\config\\ohos_MusicTest_Q2SmJZwJWdjrcSAN5QNr4iId4HCxLxP7sV1aTGpkUtg=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "ohos",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

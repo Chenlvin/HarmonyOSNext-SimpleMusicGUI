@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "cc.chenlvin.studymusicgui",
+    "vendor": "example",
+    "versionCode": 1000000,
+    "versionName": "0.0.1",
+    "icon": "$media:64x64",
+    "label": "$string:app_name"
+  }
+}
